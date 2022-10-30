@@ -120,10 +120,8 @@ section  .subdiv {
 }
 .first__div p {
     color: #FFFFFF;
-    font-weight: 400;
-    font-size: 14px;
-    width: 80%;
-    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 17px;
 }
 section .two__div {
     background-color: #FFFFFF;
@@ -197,3 +195,323 @@ section .four__div h5{
     font-weight: 700;
     font-size: 16px;
 }
+.three_section {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+}
+.three_section .first___div  {
+    background-image: url(img/menina.svg);
+    position: absolute;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ 
+}
+.two___div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 70px;
+    padding-top: 450px;
+}
+.three___div {
+    padding-right: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 240px;
+    padding-top: 100px;
+
+}
+
+.three_section .two___div .emoji_tres {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.three_section .four___div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    margin-right: 40px;
+    padding-left: 765px;
+}
+.three_section .four___div h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+.three_section .four___div p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+}
+.four_section {
+    height: 840px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.four_section .first____div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    margin-right: 40px;
+}
+.four_section .first____div h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+.four_section .first____div p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+}
+.four_section .two____div .imgvideo{
+    background: url(img/video.png);
+    position: absolute;
+    background-size: cover;
+    width: 40%;
+    height: 40%;
+    z-index: -5;
+}
+.four_section .two____div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five_section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+.five_section .mainDivFiveSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.five_section .first_____div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    margin-right: 40px;
+}
+.five_section .first_____div h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 130%;
+}
+.five_section .first_____div p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    width: 241%;
+    margin-bottom: 130px;
+}
+.five_section .two_____div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.five_section .two_____div img {
+    width: 300px;
+}
+.five_section .mainDivSixSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* CARDS COM ESTELAS */
+.six_section {
+    display: flex;
+    justify-content: center;
+    height: 1050px;
+}
+.six_section .two______div {
+    margin-left: 167px;
+}
+.six_section .mainDivSixSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.six_section .two______div h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 130%;
+}
+.six_section .two______div p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    width: 241%;
+    margin-bottom: 130px;
+}
+.six_section .cardUm {
+    background-color: #FFFFFF;
+    width: 25%;
+    height: 105%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.six_section .starsCardUm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.six_section .starsCardUm img {
+    margin: 0 5px;
+}
+.six_section .cardUm p {
+    text-align: center;
+    width: 50%;
+}
+.six_section .profText {
+    display: flex;
+}
+.six_section .profText img {
+    margin-right: 10px;
+}
+.six_section .profText h6 {
+    color: #8D5CF6;
+}
+.six_section .profText span {
+    color: black;
+}
+.six_section .mainCardDiv {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+/* FIM DO PRIMEIRO CARD */
+/* .six_section {
+    display: flex;
+    justify-content: center;
+    height: 1050px;
+}
+.six_section .mainDivSixSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.six_section .two______div h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 130%;
+}
+.six_section .two______div p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    width: 241%;
+    margin-bottom: 130px;
+}
+.six_section .cardUm {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.six_section .starsCardUm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.six_section .starsCardUm img {
+    margin: 0 5px;
+}
+.six_section .cardUm p {
+    text-align: center;
+    width: 50%;
+}
+.six_section .profText {
+    display: flex;
+}
+.six_section .profText img {
+    margin-right: 10px;
+}
+.six_section .profText h6 {
+    color: #8D5CF6;
+}
+.six_section .profText span {
+    color: black;
+}
+/* FIM DO SEGUNDO CARD */
+/* .six_section {
+    display: flex;
+    justify-content: center;
+    height: 1050px;
+}
+.six_section .mainDivSixSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.six_section .two______div h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 130%;
+}
+.six_section .two______div p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    width: 241%;
+    margin-bottom: 130px;
+}
+.six_section .cardUm {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.six_section .starsCardUm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.six_section .starsCardUm img {
+    margin: 0 5px;
+}
+.six_section .cardUm p {
+    text-align: center;
+    width: 50%;
+}
+.six_section .profText {
+    display: flex;
+}
+.six_section .profText img {
+    margin-right: 10px;
+}
+.six_section .profText h6 {
+    color: #8D5CF6;
+}
+.six_section .profText span {
+    color: black;
+} */ 
+/* FIM DO TERCEIRO CARD */
